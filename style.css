@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/bgc.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.container h1 {
+    background-color: rgba(242, 238, 238, 0.696);
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.container .box{
+    margin-top: 15%;
+    background-color: rgba(71, 5, 5, 0.411);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.H {
+    background-image: url(./img/ha.jpg);
+    background-position: center;
+    background-size: cover;
+    outline: none;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    
+    
+  }
+
+  .J {
+    background-image: url(./img/251786.jpg);
+    background-position: center;
+    background-size: cover;
+    outline: none;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+
+  .L {
+    background-image: url(./img/Light.jpg);
+    background-position: center;
+    background-size: cover;
+    outline: none;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+
+  .K {
+    background-image: url(img/krishna.jpg);
+    background-position: center;
+    background-size: cover;
+    outline: none;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+
+  label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    background-color:black;
+    padding: 10px;
+    border-radius: 10px;
+  }
